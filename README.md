@@ -13,6 +13,7 @@
 # [tmux](https://github.com/tmux/tmux)
 # [redshift](https://github.com/jonls/redshift)
 # [feh](https://github.com/derf/feh)
+# [vim](https://github.com/vim/vim)
 # [ntfd](https://github.com/kamek-pf/ntfd)
 # [kitty](https://sw.kovidgoyal.net/kitty/)
 # [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
