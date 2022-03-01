@@ -7,6 +7,8 @@
 # [Polybar](https://github.com/polybar/polybar)
 # [Cava](https://github.com/karlstav/cava)
 # [Cmus](https://github.com/cmus/cmus)
+# [picom](https://github.com/yshui/picom)
+# [gotop](https://github.com/cjbassi/gotop)
 # [ly](https://github.com/fairyglade/ly)
 # [ntfd](https://github.com/kamek-pf/ntfd)
 # [kitty](https://sw.kovidgoyal.net/kitty/)
