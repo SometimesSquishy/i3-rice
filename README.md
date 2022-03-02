@@ -15,8 +15,10 @@
 # [feh](https://github.com/derf/feh)
 # [vim](https://github.com/vim/vim)
 # [doas](https://github.com/Duncaen/OpenDoas)
+# [pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
+# [pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
+# [alsa-utils](https://archlinux.org/packages/?name=alsa-utils)
 # [ntfd](https://github.com/kamek-pf/ntfd)
 # [kitty](https://sw.kovidgoyal.net/kitty/)
 # [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
 # [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
-# I honestly have no clue how my audio works i got pipewire and pulseaudio installed and somehow my stuff works 
