@@ -25,3 +25,7 @@
 # [kitty](https://sw.kovidgoyal.net/kitty/)
 # [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
 # [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
+# 
+#
+# Theme
+# [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
