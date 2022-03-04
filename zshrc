@@ -40,8 +40,9 @@ alias bl20="sudo xbacklight 20"
 alias bl50="sudo xbacklight 50"
 alias bl80="sudo xbacklight 80"
 alias bl100="sudo xbacklight 100"
-
-
+alias tf="fuck --yeah"
+eval $(thefuck --alias)
+alias wc="wipeclean"
 
 neofetch
 
