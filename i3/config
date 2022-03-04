@@ -158,7 +158,7 @@ bindsym $mod+Shift+r restart
 #bindsym $mod+Shift+e exec ~/Tools/bin/rofi-close-i3.sh
  #
  #rofi favorite gui menu
-#bindsym $mod+i exec ~/Tools/bin/rofi-fav-gui-i3.sh
+bindsym $mod+i exec ~/Tools/bin/rofi-fav-gui-i3.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -218,29 +218,33 @@ exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.*
 #Lock screen binding.
 #bindsym $mod+shift+x exec ~/@3rdPartyPackages/betterlockscreen/lock.sh -l dimblur
 
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+exec_always picom -f
+
+exec bash -v ~/Tools/bin/xkb.sh
+exec bash -v ~/Tools/bin/i3Autostart.sh
+
+
+#LAPTOP CONTROLSSSSSSSSSS
+-------------------------------------------------------------------------------------------------------
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +2% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -2% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +2% #increase sound volume
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -2% #decrease sound volume
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp sudo exec --no-startup-id xbacklight -inc 5 
+#bindsym XF86MonBrightnessUp sudo exec --no-startup-id xbacklight -inc 5 
 # increase screen brightness
-bindsym XF86MonBrightnessDown su exec xbacklight -dec 5 
+#bindsym XF86MonBrightnessDown su exec xbacklight -dec 5 
 # decrease screen brightness
 
 # Touchpad controls
 #bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
-
-exec_always picom -f
-
-exec bash -v ~/Tools/bin/i3Autostart.sh
-
+#bindsym XF86AudioPlay exec playerctl play
+#bindsym XF86AudioPause exec playerctl pause
+#bindsym XF86AudioNext exec playerctl next
+#bindsym XF86AudioPrev exec playerctl previous
+---------------------------------------------------------------------------------------------------------
