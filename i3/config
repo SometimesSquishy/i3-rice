@@ -27,31 +27,14 @@ font pango:RobotoMono 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-
-
-
 # start a terminal
 bindsym $mod+Return exec kitty
-
-#REBBIT
-bindsym $mod+shift+v exec kitty rtv
 
 #/g/
 bindsym $mod+shift+g exec --no-startup-id palemoon https://4channel.org/g/
 
-#newz
-bindsym $mod+shift+b exec --no-startup-id kitty newsboat
-
-
-
-
 # kill focused window
 bindsym $mod+Shift+q kill
-
-
-
-#start dmenu
-#bindsym $mod+d exec dmenu_run -nb black -nf white -sb white -sf black -fn RobotoMono:size=10
 
 #lock
 bindsym $mod+shift+x exec i3lock --color 40FFD1
@@ -211,7 +194,7 @@ assign [class="^Firefox$"] 1
 # Bind print screen (NEED BETTER SCREENSHOT UTIL)
 bindsym Print exec flameshot
 
-#Set Wallpaper
+#To set a wallpaper create directory ~/Pictures and name file as wallpaper
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.*
 
 
