@@ -14,6 +14,8 @@
 # [redshift](https://github.com/jonls/redshift)
 # [feh](https://github.com/derf/feh)
 # [vim](https://github.com/vim/vim)
+# [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
+# [lxrandr](https://wiki.lxde.org/en/LXRandR)
 # [doas](https://github.com/Duncaen/OpenDoas)
 # [pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
 # [pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
