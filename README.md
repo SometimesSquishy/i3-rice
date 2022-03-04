@@ -13,6 +13,7 @@
 # [tmux](https://github.com/tmux/tmux)
 # [redshift](https://github.com/jonls/redshift)
 # [feh](https://github.com/derf/feh)
+# [thefuck](https://github.com/nvbn/thefuck)
 # [vim](https://github.com/vim/vim)
 # [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
 # [lxrandr](https://wiki.lxde.org/en/LXRandR)
