@@ -8,7 +8,6 @@
 # [Cava](https://github.com/karlstav/cava)
 # [Cmus](https://github.com/cmus/cmus)
 # [picom](https://github.com/yshui/picom)
-# [gotop](https://github.com/cjbassi/gotop)
 # [ly](https://github.com/fairyglade/ly)
 # [tmux](https://github.com/tmux/tmux)
 # [redshift](https://github.com/jonls/redshift)
