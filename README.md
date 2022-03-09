@@ -14,8 +14,6 @@
 # [feh](https://github.com/derf/feh)
 # [thefuck](https://github.com/nvbn/thefuck)
 # [vim](https://github.com/vim/vim)
-# [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
-# [lxrandr](https://wiki.lxde.org/en/LXRandR)
 # [doas](https://github.com/Duncaen/OpenDoas)
 # [pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
 # [pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
@@ -31,3 +29,6 @@
 #
 # Nice Stuff
 # [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
+# [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
+# [lxrandr](https://wiki.lxde.org/en/LXRandR)
+#
