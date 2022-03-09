@@ -28,3 +28,6 @@
 #
 # Theme
 # [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
+#
+# Nice Stuff
+# [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
