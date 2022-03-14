@@ -208,6 +208,7 @@ exec_always picom -f
 exec bash -v ~/Tools/bin/xkb.sh
 exec bash -v ~/Tools/bin/i3Autostart.sh
 
+bindsym $mod+shift+m exec bash -v ~/Tools/bin/muzix.sh 
 
 #LAPTOP CONTROLSSSSSSSSSS
 #-------------------------------------------------------------------------------------------------------
