@@ -32,3 +32,7 @@
 # [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
 # [lxrandr](https://wiki.lxde.org/en/LXRandR)
 #
+# Install yay on artix
+# git clone https://aur.archlinux.org/yay-git.git
+# cd yay-git
+# makepkg -si c
