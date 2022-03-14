@@ -12,7 +12,7 @@ sleep 0.2;
 i3-msg "resize shrink left 200 px"
 sleep 0.2;
 i3-msg "workspace 1; split v"
-i3-msg "workspace 1; exec kitty cbonsai --life=40 --multiplier=3 -i"
+i3-msg "workspace 1; exec kitty cbonsai -l --life=40 --multiplier=3 -i"
 sleep 0.2;
 
 # Setup Workspace 2
