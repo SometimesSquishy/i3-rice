@@ -33,7 +33,7 @@
 # [lxrandr](https://wiki.lxde.org/en/LXRandR)
 #
 #
-# this is useful
+# useful artix stuff
 # https://swisen.com/installing-artix-linux-like-arch-but-better/
 # Install yay on artix
 # git clone https://aur.archlinux.org/yay-git.git
