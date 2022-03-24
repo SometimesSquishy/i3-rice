@@ -12,7 +12,6 @@
 # [tmux](https://github.com/tmux/tmux)
 # [redshift](https://github.com/jonls/redshift)
 # [feh](https://github.com/derf/feh)
-# [thefuck](https://github.com/nvbn/thefuck)
 # [vim](https://github.com/vim/vim)
 # [doas](https://github.com/Duncaen/OpenDoas)
 # [pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
@@ -32,7 +31,7 @@
 # [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
 # [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
 # [lxrandr](https://wiki.lxde.org/en/LXRandR)
-#
+# [thefuck](https://github.com/nvbn/thefuck)
 #
 # Useful artix stuff
 # https://swisen.com/installing-artix-linux-like-arch-but-better/
