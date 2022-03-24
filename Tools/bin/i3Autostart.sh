@@ -54,6 +54,7 @@ sleep 0.2;
 
 # Launch nm-applet
 exec nm-applet &
+exec watcher --start &
 
 # Launch Other Random shit
 exec redshift -P -O 3400K &
