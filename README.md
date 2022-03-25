@@ -1,3 +1,6 @@
+# OS used
+# Artix Linux
+#
 # i3-rice
 # 
 # Dependencies
@@ -21,8 +24,7 @@
 # [kitty](https://sw.kovidgoyal.net/kitty/)
 # [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
 # [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
-# [Watcher](https://github.com/Waishnav/Watcher) 
-#
+# [Backlight Control](https://aur.archlinux.org/packages/backlight_control)
 #
 # Theme
 # [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
@@ -32,7 +34,8 @@
 # [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
 # [lxrandr](https://wiki.lxde.org/en/LXRandR)
 # [thefuck](https://github.com/nvbn/thefuck)
-#
+# [Watcher](https://github.com/Waishnav/Watcher) 
+# 
 # Useful artix stuff
 # https://swisen.com/installing-artix-linux-like-arch-but-better/
 # Install yay on artix
