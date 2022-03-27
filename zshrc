@@ -14,7 +14,7 @@ plugins=(git colored-man-pages compleat vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 alias icat="kitty +kitten icat"
-alias c=clear
+alias c="clear && neofetch" 
 alias :q=exit
 alias tml="tmux list-sessions"
 alias tma="tmux attach -t"
@@ -35,13 +35,7 @@ alias bld="sudo xbacklight -dec 5"
 alias spd="speedtest-cli"
 alias n="neofetch"
 alias wtr="curl -s https://wttr.in"
-export EDITOR=vim
-alias bl20="sudo xbacklight 20"
-alias bl50="sudo xbacklight 50"
-alias bl80="sudo xbacklight 80"
-alias bl100="sudo xbacklight 100"
-alias tf="fuck --yeah"
-eval $(thefuck --alias)
+export EDITOR=nvim
 alias wc="wipeclean"
 
 neofetch
