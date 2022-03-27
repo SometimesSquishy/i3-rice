@@ -18,7 +18,7 @@ git clone https://github.com/Waishnav/Watcher
 cd ./Watcher/
 ./install
 cd
-yay -S cava backlight_control
+yay -S cava backlight_control plata-theme
 
 cp ~/i3installconfig/scripts/* ~/Tools/bin
 cp ~/i3installconfig/configs ~/.config
