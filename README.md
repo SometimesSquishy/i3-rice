@@ -25,6 +25,8 @@
 # [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
 # [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
 # [Backlight Control](https://aur.archlinux.org/packages/backlight_control)
+# [newsboat](https://wiki.archlinux.org/title/Newsboat)
+#
 #
 # Theme
 # [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
