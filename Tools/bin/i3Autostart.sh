@@ -3,7 +3,7 @@
 #remember to chmod +x scripts and put them in ~/Tools/bin/
 
 # Setup Workspace 1
-i3-msg "workspace 1; exec kitty"
+i3-msg "workspace 1; exec kitty newsboat"
 sleep 0.2;
 i3-msg "workspace 1; floating disable"
 i3-msg "workspace 1; split h"
@@ -58,5 +58,5 @@ exec watcher --start &
 
 # Launch Other Random shit
 exec redshift -P -O 3400K &
-exec ntfd &
+# exec ntfd &
 #exec blueman-applet 
