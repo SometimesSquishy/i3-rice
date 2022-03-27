@@ -27,6 +27,8 @@ font pango:RobotoMono 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+exec bash ~/Tools/bin/arandr.sh
+
 # start a terminal
 bindsym $mod+Return exec kitty
 
