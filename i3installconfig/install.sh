@@ -1,3 +1,5 @@
+## Run as Root
+
 rm /etc/pacman.conf
 cp ~/i3installconfig/pacman.conf /etc/pacman.conf
 pacman -Sy
