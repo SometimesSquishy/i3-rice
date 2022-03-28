@@ -32,7 +32,7 @@ alias bl100="sudo xbacklight 100"
 alias wc="wipeclean"
 alias sc="watcher -ds"
 alias sudo visudo="sudo EDITOR=nvim visudo"
-alias cmus="rm /home/squishy/.config/cmus/cache ;cmus"
+alias cmus="rm ~/.config/cmus/cache ;cmus"
 
 neofetch
 
