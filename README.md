@@ -1,4 +1,7 @@
-# OS used
+# My i3installscript repo is probably more up to date than this
+#
+#
+# OS Used
 # Artix Linux
 #
 # i3-rice
