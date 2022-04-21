@@ -1,4 +1,6 @@
 # My i3installscript repo is probably more up to date than this
+>>>/https://github.com/SometimesSquishy/i3installscript/tree/main/i3installconfig/configs
+
 #
 #
 # OS Used
