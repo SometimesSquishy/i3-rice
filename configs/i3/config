@@ -203,6 +203,8 @@ exec --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers
 
 exec_always picom --config ~/.config/picom/picom.conf --experimental-backends
 
+exec --no-start-up dunst
+
 exec bash -v ~/Tools/bin/xkb.sh
 exec bash -v ~/Tools/bin/i3Autostart.sh
 
