@@ -216,9 +216,9 @@ bindsym $mod+shift+m exec bash -v ~/Tools/bin/muzix.sh
 
 # Pulse Audio controls
 
-#bindsym F7 exec --no-startup-id pactl set-sink-volume 0 -2% # sound down
-#bindsym F8 exec --no-startup-id pactl set-sink-volume 0 +2% # sound up
-#bindsym F6 exec --no-startup-id pactl set-sink-mute 0 toggle # mute
+#bindsym F7 exec ~/Tools/bin/volume.sh down
+#bindsym F8 exec ~/Tools/bin/volume.sh up
+#bindsym F6 exec ~/Tools/bin/volume.sh mute
 
 
 # Sreen brightness controls
