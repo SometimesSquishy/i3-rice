@@ -19,7 +19,8 @@
 #
 # Theme
 [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
-#
+[icons used](https://github.com/snwh/faba-icon-theme)`
+
 # Nice Stuff
 [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
 [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
