@@ -10,7 +10,7 @@ i3-msg "workspace 2; exec st -f 'Roboto mono:size=9:antialiasing=true' cmus"
 sleep 0.2;
 i3-msg "workspace 2; floating disable"
 i3-msg "workspace 2; split v"
-i3-msg "workspace 2; exec st -f 'Roboto mono:size=9:antialiasing=true' cava"
+i3-msg "workspace 2; exec kitty cava"
 sleep 0.2;
 i3-msg "workspace 2; floating disable"
 for i in {1..6}
