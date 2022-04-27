@@ -2,11 +2,12 @@
 #
 # OS Used
 # Artix Linux
-#
+<p>&nbsp;</p> 
+
 # i3-rice
-# 
+<p>&nbsp;</p> 
 # Dependencies
-#
+<p>&nbsp;</p> 
 [i3-gaps](https://github.com/Airblader/i3)
 [Rofi](https://github.com/davatorium/rofi)
 [Polybar](https://github.com/polybar/polybar)
@@ -15,12 +16,12 @@
 [neovim](https://github.com/neovim/neovim)
 [kitty](https://sw.kovidgoyal.net/kitty/)
 [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
-#
-#
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
 # Theme
 [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
 [icons used](https://github.com/snwh/faba-icon-theme)
-
+<p>&nbsp;</p> 
 # Nice Stuff
 [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
 [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
@@ -32,7 +33,9 @@
 [redshift](https://github.com/jonls/redshift)
 [notifications](https://github.com/dunst-project/dunst)
 
-# 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+
 # Audio/Music Player
 [pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
 [pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
