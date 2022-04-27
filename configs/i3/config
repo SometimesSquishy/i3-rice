@@ -182,8 +182,9 @@ focus_follows_mouse no
 # Pin window class on specific workspace
 assign [class="^firefox$"] 3
 
-# Bind print screen (NEED BETTER SCREENSHOT UTIL)
+# Bind print screen
 bindsym Print exec flameshot gui
+bindsym $mod+shift+s exec flameshot gui
 
 #To set a wallpaper create directory ~/Pictures/Wallpapers
 exec --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers
