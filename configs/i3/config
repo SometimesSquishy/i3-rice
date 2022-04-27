@@ -209,6 +209,10 @@ bindsym $mod+shift+m exec bash -v ~/Tools/bin/muzix.sh
 #uncomment/modify as seen fit
 
 
+#battery saving thing
+
+#exec doas tlp start
+
 # Pulse Audio controls
 
 #bindsym F7 exec ~/Tools/bin/volume.sh down
