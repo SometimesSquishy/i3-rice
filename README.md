@@ -1,13 +1,18 @@
-#
-#
 # OS Used
 # Artix Linux
+
 <p>&nbsp;</p> 
+    <p></p>
 
 # i3-rice
+
 <p>&nbsp;</p> 
+    <p></p>
+    
 # Dependencies
+
 <p>&nbsp;</p> 
+    <p></p>> 
 
 [i3-gaps](https://github.com/Airblader/i3)
 [Rofi](https://github.com/davatorium/rofi)
@@ -19,13 +24,17 @@
 [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
 
 <p>&nbsp;</p> 
-
+    <p></p>
 <p>&nbsp;</p> 
+    <p></p>
 
 # Theme
 [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
 [icons used](https://github.com/snwh/faba-icon-theme)
+
 <p>&nbsp;</p> 
+    <p></p>
+    
 # Nice Stuff
 [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
 [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
@@ -36,9 +45,10 @@
 [tmux](https://github.com/tmux/tmux)
 [redshift](https://github.com/jonls/redshift)
 [notifications](https://github.com/dunst-project/dunst)
-
 <p>&nbsp;</p> 
+    <p></p>
 <p>&nbsp;</p> 
+    <p></p>
 
 # Audio/Music Player
 [pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
@@ -47,6 +57,7 @@
 [pulseaudio-bluetooth](https://archlinux.org/packages/extra/x86_64/pulseaudio-bluetooth/)
 
 <p>&nbsp;</p> 
+    <p></p>
 
 [Cava](https://github.com/karlstav/cava)
 [Cmus](https://github.com/cmus/cmus)
