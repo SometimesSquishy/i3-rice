@@ -12,7 +12,7 @@
 # Dependencies
 
 <p>&nbsp;</p> 
-    <p></p>> 
+    <p></p>
 
 [i3-gaps](https://github.com/Airblader/i3)
 [Rofi](https://github.com/davatorium/rofi)
