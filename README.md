@@ -16,12 +16,12 @@
     
 [i3-gaps](https://github.com/Airblader/i3)   <p></p>
 [Rofi](https://github.com/davatorium/rofi)   <p></p>
-[Polybar](https://github.com/polybar/polybar)
-[picom](https://github.com/yshui/picom)
-[feh](https://github.com/derf/feh)
-[neovim](https://github.com/neovim/neovim)
-[kitty](https://sw.kovidgoyal.net/kitty/)
-[zsh](https://wiki.archlinux.org/title/Zsh#Installation)
+[Polybar](https://github.com/polybar/polybar)   <p></p>
+[picom](https://github.com/yshui/picom)   <p></p>
+[feh](https://github.com/derf/feh)   <p></p> 
+[neovim](https://github.com/neovim/neovim)   <p></p>
+[kitty](https://sw.kovidgoyal.net/kitty/)   <p></p>
+[zsh](https://wiki.archlinux.org/title/Zsh#Installation)   <p></p>
 
 <p>&nbsp;</p> 
     <p></p>
@@ -29,35 +29,35 @@
     <p></p>
 
 # Theme
-[plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
-[icons used](https://github.com/snwh/faba-icon-theme)
-
+[plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)   <p></p>
+[icons used](https://github.com/snwh/faba-icon-theme)   <p></p>
+ 
 <p>&nbsp;</p> 
     <p></p>
     
 # Nice Stuff
-[NTFS support](https://wiki.archlinux.org/title/NTFS-3G)
-[lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)
-[ly](https://github.com/fairyglade/ly)
-[Watcher](https://github.com/Waishnav/Watcher) 
-[Backlight Control](https://aur.archlinux.org/packages/backlight_control)
-[newsboat](https://wiki.archlinux.org/title/Newsboat)
-[tmux](https://github.com/tmux/tmux)
-[redshift](https://github.com/jonls/redshift)
-[notifications](https://github.com/dunst-project/dunst)
+[NTFS support](https://wiki.archlinux.org/title/NTFS-3G)   <p></p>
+[lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)   <p></p>
+[ly](https://github.com/fairyglade/ly)   <p></p>
+[Watcher](https://github.com/Waishnav/Watcher)   <p></p>
+[Backlight Control](https://aur.archlinux.org/packages/backlight_control)   <p></p>
+[newsboat](https://wiki.archlinux.org/title/Newsboat)   <p></p>
+[tmux](https://github.com/tmux/tmux)  <p></p>
+[redshift](https://github.com/jonls/redshift)   <p></p>
+[notifications](https://github.com/dunst-project/dunst)   <p></p>
 <p>&nbsp;</p> 
     <p></p>
 <p>&nbsp;</p> 
     <p></p>
 
 # Audio/Music Player
-[pulseaudio](https://archlinux.org/packages/?name=pulseaudio)
-[pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
-[alsa-utils](https://archlinux.org/packages/?name=alsa-utils)
-[pulseaudio-bluetooth](https://archlinux.org/packages/extra/x86_64/pulseaudio-bluetooth/)
+[pulseaudio](https://archlinux.org/packages/?name=pulseaudio)   <p></p>
+[pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)   <p></p>
+[alsa-utils](https://archlinux.org/packages/?name=alsa-utils)   <p></p>
+[pulseaudio-bluetooth](https://archlinux.org/packages/extra/x86_64/pulseaudio-bluetooth/)   <p></p>
 
 <p>&nbsp;</p> 
     <p></p>
 
-[Cava](https://github.com/karlstav/cava)
-[Cmus](https://github.com/cmus/cmus)
+[Cava](https://github.com/karlstav/cava)   <p></p>
+[Cmus](https://github.com/cmus/cmus)   <p></p>
