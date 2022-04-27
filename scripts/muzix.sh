@@ -1,12 +1,12 @@
 
 #muzik
 
-i3-msg "workspace 2; exec kitty alsamixer"
+i3-msg "workspace 2; exec st alsamixer"
 sleep 0.2;
 #i3-msg "resize
 i3-msg "workspace 2; flating disable"
 i3-msg "workspace 2; split h"
-i3-msg "workspace 2; exec kitty cmus"
+i3-msg "workspace 2; exec st cmus"
 sleep 0.2;
 i3-msg "workspace 2; floating disable"
 i3-msg "workspace 2; split v"
