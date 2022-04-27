@@ -13,7 +13,10 @@
 
 <p>&nbsp;</p> 
     <p></p>
-
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
 [i3-gaps](https://github.com/Airblader/i3)
 [Rofi](https://github.com/davatorium/rofi)
 [Polybar](https://github.com/polybar/polybar)
