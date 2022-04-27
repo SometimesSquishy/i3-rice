@@ -5,6 +5,16 @@
     <p></p>
 
 # i3-rice
+<p align="center">
+  <img src="https://github.com/SometimesSquishy/i3installscript/blob/main/Screenshots/2022-04-23_21-24_1.png">
+</p>
+
+<p>&nbsp;</p> 
+    <p></p>
+    
+<p align="center">
+  <img src="https://github.com/SometimesSquishy/i3installscript/blob/main/Screenshots/2022-04-23_21-24.png">
+</p>
 
 <p>&nbsp;</p> 
     <p></p>
