@@ -42,7 +42,7 @@ bindsym $mod+shift+x exec i3lock --color 40FFD1
 #cool colors #ff40c1, 40FFD1
 
 
-#start rofi
+#start 
 bindsym $mod+d exec rofi -show run -hide-scrollbar -lines 3 -eh 1 -width 40 -location 8 -xoffset 170 -yoffset 70 -padding 30 -disable-history -font "RobotoMono 18"
 
 # rofi with change window feature (like select window in tmux) 
@@ -136,12 +136,6 @@ bindsym $mod+Shift+c reload
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
-
- #rofi powermenu
-#bindsym $mod+Shift+e exec ~/Tools/bin/rofi-close-i3.sh
- #
- #rofi favorite gui menu
-bindsym $mod+i exec ~/Tools/bin/rofi-fav-gui-i3.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
