@@ -3,16 +3,16 @@
 #remember to chmod +x scripts and put them in ~/Tools/bin/
 
 # Setup Workspace 1
-i3-msg "workspace 1; exec kitty newsboat"
+i3-msg "workspace 1; exec st newsboat"
 sleep 0.2;
 i3-msg "workspace 1; floating disable"
 i3-msg "workspace 1; split h"
-i3-msg "workspace 1; exec kitty htop"
+i3-msg "workspace 1; exec st htop"
 sleep 0.2;
 i3-msg "resize shrink left 200 px"
 sleep 0.2;
 i3-msg "workspace 1; split v"
-i3-msg "workspace 1; exec kitty cbonsai -l --life=40 --multiplier=3 -i"
+i3-msg "workspace 1; exec st cbonsai -l --life=40 --multiplier=3 -i"
 sleep 0.2;
 
 # Music Setup, Uncomment if dual monitors
