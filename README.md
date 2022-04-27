@@ -68,6 +68,6 @@
 
 <p>&nbsp;</p> 
     <p></p>
-;_-_-_-_-_-_-_-_-_-_-_-_-_- <p></p>
+\;_-_-_-_-_-_-_-_-_-_-_-_-_- <p></p>
 [Cava](https://github.com/karlstav/cava)   <p></p>
 [Cmus](https://github.com/cmus/cmus)   <p></p>
