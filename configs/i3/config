@@ -183,7 +183,7 @@ focus_follows_mouse no
 assign [class="^firefox$"] 3
 
 # Bind print screen (NEED BETTER SCREENSHOT UTIL)
-bindsym Print exec flameshot
+bindsym Print exec flameshot gui
 
 #To set a wallpaper create directory ~/Pictures/Wallpapers
 exec --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers
