@@ -8,6 +8,7 @@
 <p>&nbsp;</p> 
 # Dependencies
 <p>&nbsp;</p> 
+
 [i3-gaps](https://github.com/Airblader/i3)
 [Rofi](https://github.com/davatorium/rofi)
 [Polybar](https://github.com/polybar/polybar)
@@ -16,8 +17,11 @@
 [neovim](https://github.com/neovim/neovim)
 [kitty](https://sw.kovidgoyal.net/kitty/)
 [zsh](https://wiki.archlinux.org/title/Zsh#Installation)
+
 <p>&nbsp;</p> 
+
 <p>&nbsp;</p> 
+
 # Theme
 [plata-noir-compact](https://aur.archlinux.org/packages/plata-theme)
 [icons used](https://github.com/snwh/faba-icon-theme)
@@ -41,6 +45,7 @@
 [pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
 [alsa-utils](https://archlinux.org/packages/?name=alsa-utils)
 [pulseaudio-bluetooth](https://archlinux.org/packages/extra/x86_64/pulseaudio-bluetooth/)
+
 <p>&nbsp;</p> 
 
 [Cava](https://github.com/karlstav/cava)
