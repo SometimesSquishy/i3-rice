@@ -30,7 +30,7 @@
 [newsboat](https://wiki.archlinux.org/title/Newsboat)
 [tmux](https://github.com/tmux/tmux)
 [redshift](https://github.com/jonls/redshift)
-
+[notifications](https://github.com/dunst-project/dunst)
 
 # 
 # Audio/Music Player
@@ -38,6 +38,7 @@
 [pulseaudio-alsa](https://archlinux.org/packages/?name=pulseaudio-alsa)
 [alsa-utils](https://archlinux.org/packages/?name=alsa-utils)
 [pulseaudio-bluetooth](https://archlinux.org/packages/extra/x86_64/pulseaudio-bluetooth/)
+<p>&nbsp;</p> 
 
 [Cava](https://github.com/karlstav/cava)
 [Cmus](https://github.com/cmus/cmus)
