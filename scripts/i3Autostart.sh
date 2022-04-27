@@ -3,16 +3,16 @@
 #remember to chmod +x scripts and put them in ~/Tools/bin/
 
 # Setup Workspace 1
-i3-msg "workspace 1; exec st -f 'Roboto mono:size=9:antialiasing=true:autohinting=true' newsboat"
+i3-msg "workspace 1; exec st -f 'Roboto mono:size=9:antialiasing=true' newsboat"
 sleep 0.2;
 i3-msg "workspace 1; floating disable"
 i3-msg "workspace 1; split h"
-i3-msg "workspace 1; exec st -f 'Roboto mono:size=9:antialiasing=true:autohinting=true' htop"
+i3-msg "workspace 1; exec st -f 'Roboto mono:size=9:antialiasing=true' htop"
 sleep 0.2;
 i3-msg "resize shrink left 200 px"
 sleep 0.2;
 i3-msg "workspace 1; split v"
-i3-msg "workspace 1; exec st -f 'Roboto mono:size=9:antialiasing=true:autohinting=true' cbonsai -l --life=40 --multiplier=3 -i"
+i3-msg "workspace 1; exec st -f 'Roboto mono:size=9:antialiasing=true' cbonsai -l --life=40 --multiplier=3 -i"
 sleep 0.2;
 
 # Music Setup, Uncomment if dual monitors
