@@ -1,16 +1,6 @@
 #!/bin/bash
 
-
-
 CDPATH="$CDPATH":"$HOME"/Music
-
-
-
-
-
-
-
-
 
 echo "Remember to use \\ before space"
 echo "Artist?"
@@ -19,4 +9,6 @@ echo "Album?"
 read -r ALBUM
 echo "URL?"
 read -r URL
-yt-dlp -x -P ~/Music/$ARTIST/$ALBUM  --cookies-from-browser firefox --embed-thumbnail --add-metadata $URL
+
+
+yt-dlp  -f 'ba' -x -P ~/Music/$ARTIST/$ALBUM --embed-thumbnail --cookies-from-browser firefox --add-metadata --audio-format m4a "%(title)s.%(ext)s" --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" $URL
