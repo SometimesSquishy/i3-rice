@@ -35,11 +35,11 @@ FLAGS=" --path $BASE_DIR$MUSIC/$ARTIST/$ALBUM \
         --audio-quality 0 \
         --add-metadata \
         --cookies-from-browser firefox
-
+"
 #--ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\""        
 #idk why this not work on anything other than mp3, it should make thumbnail 1x1 instead of 16x9 but it dont
 
-        "
+        
 BIN=yt-dlp
 
 ## exec cmd
