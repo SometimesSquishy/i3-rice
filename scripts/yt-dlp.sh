@@ -1,15 +1,46 @@
 #!/bin/bash
 
-CDPATH="$CDPATH":"$HOME"/Music
+# usage
+# dl.sh link sub-directory(optional)
+# by default it uses yt-dlp change the $BIN to change it.
+# script stores cache in .cache dir
+# and keeps a archive just  to prevent duplicate downloads
+# archive is located in Music directory named ".download.txt"
+# it also downloads thumbnails by default
 
-echo "Remember to use \\ before space"
+
 echo "Artist?"
 read -r ARTIST
 echo "Album?"
 read -r ALBUM
 echo "URL?"
 read -r URL
-# Setting variables such as the URL and where to organize music to
 
-yt-dlp  -f 'ba' -x -P ~/Music/$ARTIST/$ALBUM --embed-thumbnail --cookies-from-browser firefox --add-metadata --audio-format m4a "%(title)s.%(ext)s" --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" $URL
-# -ppa string should make a 1x1 thumbnail but if i use m4a it dont work, but if i use mp3 i get much worse quality
+
+# def variable
+BASE_DIR=~/
+MUSIC_DIR=Music
+
+CACHE_DIR=$BASE_DIR$MUSIC_DIR/.cache
+DOWNLOAD_BAK_FILE=$BASE_DIR$MUSIC_DIR.download.txt
+FLAGS=" --path $BASE_DIR$MUSIC/$ARTIST/$ALBUM \
+        --download-archive $DOWNLOAD_BAK_FILE \
+        --no-post-overwrites \
+        -cwix \
+        --audio-format m4a \
+        -o \"%(title)s.%(ext)s\" \
+        --embed-thumbnail \
+        --cache-dir=$CACHE_DIR \
+        --format bestaudio \
+        --audio-quality 0 \
+        --add-metadata \
+        --cookies-from-browser firefox
+
+#--ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\""        
+#idk why this not work on anything other than mp3, it should make thumbnail 1x1 instead of 16x9 but it dont
+
+        "
+BIN=yt-dlp
+
+## exec cmd
+echo "$BIN  $FLAGS $URL"
