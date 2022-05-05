@@ -45,12 +45,13 @@
     <p></p>
     
 # Nice Stuff
+[neovim](https://github.com/neovim/neovim)   <p></p>
 [NTFS support](https://wiki.archlinux.org/title/NTFS-3G)   <p></p>
 [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)   <p></p>
-[ly](https://github.com/fairyglade/ly)   <p></p>
+[caja (gui file manager)](https://github.com/mate-desktop/caja)   <p></p>
+[lf (tui file manager)](https://github.com/gokcehan/lf)   <p></p>
 [Watcher](https://github.com/Waishnav/Watcher)   <p></p>
 [Backlight Control](https://aur.archlinux.org/packages/backlight_control)   <p></p>
-[neovim](https://github.com/neovim/neovim)   <p></p>
 [newsboat](https://wiki.archlinux.org/title/Newsboat)   <p></p>
 [tmux](https://github.com/tmux/tmux)  <p></p>
 [redshift](https://github.com/jonls/redshift)   <p></p>
