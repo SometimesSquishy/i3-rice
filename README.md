@@ -29,7 +29,6 @@
 [Polybar](https://github.com/polybar/polybar)   <p></p>
 [picom](https://github.com/yshui/picom)   <p></p>
 [feh](https://github.com/derf/feh)   <p></p> 
-[neovim](https://github.com/neovim/neovim)   <p></p>
 [kitty](https://sw.kovidgoyal.net/kitty/)   <p></p>
 [zsh](https://wiki.archlinux.org/title/Zsh#Installation)   <p></p>
 
@@ -51,6 +50,7 @@
 [ly](https://github.com/fairyglade/ly)   <p></p>
 [Watcher](https://github.com/Waishnav/Watcher)   <p></p>
 [Backlight Control](https://aur.archlinux.org/packages/backlight_control)   <p></p>
+[neovim](https://github.com/neovim/neovim)   <p></p>
 [newsboat](https://wiki.archlinux.org/title/Newsboat)   <p></p>
 [tmux](https://github.com/tmux/tmux)  <p></p>
 [redshift](https://github.com/jonls/redshift)   <p></p>
