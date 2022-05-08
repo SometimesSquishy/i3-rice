@@ -180,7 +180,7 @@ popup_during_fullscreen smart
 focus_follows_mouse no
 
 # Pin window class on specific workspace
-assign [class="^firefox$"] 3
+assign [class="^firefox$"] 2
 
 # Bind print screen
 bindsym Print exec flameshot gui
