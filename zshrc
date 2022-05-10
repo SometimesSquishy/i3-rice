@@ -32,7 +32,7 @@ alias spd="speedtest-cli"
 alias n="neofetch"
 alias wtr="clear && neofetch && curl -s https://wttr.in"
 alias weather="clear && neofetch && curl -s https://wttr.in"
-
+alias ipfetch="ipfetch -ip"
 
 #alias history="history 1| awk '{print $2}' | sort | uniq -c | sort -rn | head -n10"
 #alias ip="curl http://ident.me; echo"
