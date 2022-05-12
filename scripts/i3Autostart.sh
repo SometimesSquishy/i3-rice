@@ -2,8 +2,11 @@
 #Workspace startup stuff 
 #remember to chmod +x scripts and put them in ~/Tools/bin/
 
-WORKSPACE=1
+#terminal to use
 TERMINAL="st -f 'Roboto mono:size=9:antialiasing=true'"
+
+# workspace to exec on
+WORKSPACE=1
 
 # Setup Workspace
 i3-msg "workspace $WORKSPACE; exec $TERMINAL  newsboat"
@@ -30,13 +33,6 @@ $WORKSPACE# Launch Bar
 exec polybar mystatus -q &
 #sleep 0.2; 
 
-# Launch nm-applet
-#exec nm-applet &
-
 # Launch Other Random shit
 exec redshift -P -O 3400K &
 exec watcher --start &
-
-#exec ntfd &
-#exec blueman-applet 
-
