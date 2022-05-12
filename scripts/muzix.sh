@@ -1,18 +1,25 @@
-
+#!/bin/sh
 #muzik
 
-i3-msg "workspace 2; exec st -f 'Roboto mono:size=9:antialiasing=true' alsamixer"
+
+#terminal to use
+TERMINAL="st -f 'Roboto mono:size=9:antialiasing=true'"
+
+# workspace to exec on
+WORKSPACE=2
+
+i3-msg "workspace $WORKSPACE; exec st -f 'Roboto mono:size=9:antialiasing=true' alsamixer"
 sleep 0.2;
 #i3-msg "resize
-i3-msg "workspace 2; flating disable"
-i3-msg "workspace 2; split h"
-i3-msg "workspace 2; exec st -f 'Roboto mono:size=9:antialiasing=true' cmus"
+i3-msg "workspace $WORKSPACE; flating disable"
+i3-msg "workspace $WORKSPACE; split h"
+i3-msg "workspace $WORKSPACE; exec kitty cmus"
 sleep 0.2;
-i3-msg "workspace 2; floating disable"
-i3-msg "workspace 2; split v"
-i3-msg "workspace 2; exec kitty cava"
+i3-msg "workspace $WORKSPACE; floating disable"
+i3-msg "workspace $WORKSPACE; split v"
+i3-msg "workspace $WORKSPACE; exec st -f 'Roboto mono:size=9:antialiasing=true' cava"
 sleep 0.2;
-i3-msg "workspace 2; floating disable"
+i3-msg "workspace $WORKSPACE; floating disable"
 for i in {1..6}
 do
   i3-msg "resize grow left 200 px"
