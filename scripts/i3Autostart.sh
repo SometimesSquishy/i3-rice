@@ -22,8 +22,8 @@ i3-msg "workspace $WORKSPACE; exec $TERMINAL cbonsai -l --life=40 --multiplier=3
 $WORKSPACEleep 0.2;
 
 # Music Setup, Uncomment if dual monitors
-# exec bash ~/Tools/bi$WORKSPACEmuzix.sh
-$WORKSPACE# Back to Workspace 1
+# exec bash ~/Tools/bin/muzix.sh
+# Back to Workspace 1
 i3-msg "workspace $WORKSPACE"
 
 #----------------------------------------#
