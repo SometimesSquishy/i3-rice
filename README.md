@@ -1,6 +1,6 @@
 # OS Used
 # Artix Linux
-
+# \>\>\> https://git.ssquishy.xyz
 <p>&nbsp;</p> 
     <p></p>
 
