@@ -9,7 +9,7 @@ TERMINAL="st -f 'Roboto mono:size=9:antialiasing=true'"
 WORKSPACE=1
 
 # Setup Workspace
-i3-msg "workspace $WORKSPACE; exec $TERMINAL  newsboat"
+i3-msg "workspace $WORKSPACE; exec $TERMINAL  newsboat -r"
 sleep 0.2;
 i3-msg "workspace $WORKSPACE; floating disable"
 i3-msg "workspace $WORKSPACE; split h"
