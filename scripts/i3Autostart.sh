@@ -1,6 +1,6 @@
 
 #Workspace startup stuff 
-#remember to chmod +x scripts and put them in ~/Tools/bin/
+#remember to chmod +x scripts and put them in ~/Tools/scripts/
 
 #terminal to use
 TERMINAL="st -f 'Roboto mono:size=9:antialiasing=true'"
