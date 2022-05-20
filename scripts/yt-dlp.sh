@@ -15,12 +15,12 @@ read URL
 
 ls ~/Music/$ARTIST/ | grep $ALBUM
 
-if [ "$ALBUM" = "$ALBUM" ]; then
-	echo "You have already downloaded an album with this name!"
-	sleep 1
-else
-	echo "new music!"
-fi
+#if [ "$ALBUM" = "$ALBUM" ]; then
+#	echo "You have already downloaded an album with this name!"
+#	sleep 1
+#else
+#	echo "new music!"
+#fi
 
 
 echo "press y for mp3 download, worse quality allegedly but album art will actually be 1x1"
@@ -30,9 +30,9 @@ echo $MP3OR4
 
 if [ "$MP3OR4" = "y" ]; then
       yt-dlp  --ignore-errors \
-	-P ~/Music/$ARTIST/$ALBUM
+	-P ~/Music/$ARTIST/$ALBUM \
+	--extract-audio \
 	--format bestaudio \
-        --extract-audio \
         --audio-format mp3 \
         --audio-quality 0 \
         --embed-metadata \
