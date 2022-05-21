@@ -9,6 +9,7 @@
     transparency = 25
     font = Monospace 12
     format = "<b>%s</b>\n%b"
+    progress_bar = false
 
 [urgency_low]
     background = "#1d2021"
