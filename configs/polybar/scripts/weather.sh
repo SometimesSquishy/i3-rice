@@ -6,7 +6,7 @@
 
 # API settings ________________________________________________________________
 
-APIKEY=`cat $HOME/.owm-key`
+APIKEY=`cat $HOME/.config/polybar/scripts/owm-key`
 CITY_NAME='Bucksport'
 COUNTRY_CODE='US'
 # Desired output language
