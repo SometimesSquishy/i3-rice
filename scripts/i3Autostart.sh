@@ -3,7 +3,7 @@
 #remember to chmod +x scripts and put them in ~/Tools/scripts/
 
 #terminal to use
-TERMINAL="st -f 'Roboto mono:size=9:antialiasing=true'"
+TERMINAL="kitty"
 
 # workspace to exec on
 WORKSPACE=1
@@ -29,8 +29,8 @@ i3-msg "workspace $WORKSPACE"
 #----------------------------------------#
 # General app launch ....                #
 #----------------------------------------#
-$WORKSPACE# Launch Bar
-exec polybar mystatus -q &
+# Launch Bar
+exec polybar mystatus &
 #sleep 0.2; 
 
 # Launch Other Random shit
