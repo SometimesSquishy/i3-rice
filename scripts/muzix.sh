@@ -2,13 +2,10 @@
 #muzik
 
 
-#terminal to use
-TERMINAL="st -f 'Roboto mono:size=9:antialiasing=true'"
-
 # workspace to exec on
-WORKSPACE=2
+WORKSPACE=3
 
-i3-msg "workspace $WORKSPACE; exec st -f 'Roboto mono:size=9:antialiasing=true' alsamixer"
+i3-msg "workspace $WORKSPACE; exec kitty alsamixer"
 sleep 0.2;
 #i3-msg "resize
 i3-msg "workspace $WORKSPACE; flating disable"
@@ -17,7 +14,7 @@ i3-msg "workspace $WORKSPACE; exec kitty cmus"
 sleep 0.2;
 i3-msg "workspace $WORKSPACE; floating disable"
 i3-msg "workspace $WORKSPACE; split v"
-i3-msg "workspace $WORKSPACE; exec st -f 'Roboto mono:size=9:antialiasing=true' cava"
+i3-msg "workspace $WORKSPACE; exec kitty cava"
 sleep 0.2;
 i3-msg "workspace $WORKSPACE; floating disable"
 for i in {1..6}
