@@ -197,11 +197,11 @@ exec_always picom --config ~/.config/picom/picom.conf --experimental-backends
 
 exec --no-start-up dunst
 
-exec bash -v ~/Tools/bin/xkb.sh
-exec bash -v ~/Tools/bin/i3Autostart.sh
+exec bash -v ~/Tools/scripts/xkb.sh
+exec bash -v ~/Tools/scripts/i3Autostart.sh
 
 
-bindsym $mod+shift+m exec bash -v ~/Tools/bin/muzix.sh 
+bindsym $mod+shift+m exec bash -v ~/Tools/scripts/muzix.sh 
 
 #LAPTOP CONTROLSSSSSSSSSS
 #-------------------------------------------------------------------------------------------------------
@@ -210,26 +210,26 @@ bindsym $mod+shift+m exec bash -v ~/Tools/bin/muzix.sh
 
 #battery saving thing
 
-#exec doas tlp start
+exec doas tlp start
 
 # Pulse Audio controls
 
-#bindsym F7 exec ~/Tools/bin/volume.sh down
-#bindsym F8 exec ~/Tools/bin/volume.sh up
-#bindsym F6 exec ~/Tools/bin/volume.sh mute
+bindsym F7 exec ~/Tools/scripts/volume.sh down
+bindsym F8 exec ~/Tools/scripts/volume.sh up
+bindsym F6 exec ~/Tools/scripts/volume.sh mute
 
 
 # Sreen brightness controls
 
-#bindsym F3 exec --no-startup-id backlight_control +5
+bindsym F3 exec --no-startup-id backlight_control +5
 
-#bindsym F2 exec --no-startup-id backlight_control -5
+bindsym F2 exec --no-startup-id backlight_control -5
 
 # Media player controls
 
-#bindsym F10 exec cmus-remote --pause
-#bindsym F11 exec cmus-remote --next
-#bindsym F9 exec cmus-remote --prev
+bindsym F10 exec cmus-remote --pause
+bindsym F11 exec cmus-remote --next
+bindsym F9 exec cmus-remote --prev
 
 
 
