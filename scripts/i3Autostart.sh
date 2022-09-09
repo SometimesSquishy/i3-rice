@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 #Workspace startup stuff 
 #remember to chmod +x scripts and put them in ~/Tools/scripts/
