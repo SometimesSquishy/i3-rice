@@ -24,7 +24,7 @@ alias sudo visudo="sudo EDITOR=nvim visudo"
 alias cmus="rm /home/squishy/.config/cmus/cache ;cmus"
 alias music-dlp="exec ~/Tools/bin/yt-dlp.sh"
 # Changing bad basic utils to based utils
-alias cat="bat"
+alias cat="bat -pp"
 alias find="fd -uu"
 alias ls="exa"
 alias df="duf"
