@@ -24,3 +24,5 @@ do
 done
 i3-msg "resize grow left 32 px"
 sleep 0.2;
+
+#
