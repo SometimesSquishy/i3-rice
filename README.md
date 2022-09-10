@@ -30,6 +30,7 @@
 [picom](https://github.com/yshui/picom)   <p></p>
 [feh](https://github.com/derf/feh)   <p></p> 
 [kitty](https://sw.kovidgoyal.net/kitty/)   <p></p>
+[st](http://st.suckless.org/0 <p></p>
 [zsh](https://wiki.archlinux.org/title/Zsh#Installation)   <p></p>
 
 <p>&nbsp;</p> 
@@ -46,11 +47,9 @@
     
 # Nice Stuff
 [neovim](https://github.com/neovim/neovim)   <p></p>
-[NTFS support](https://wiki.archlinux.org/title/NTFS-3G)   <p></p>
 [lxappearance](https://archlinux.org/packages/community/x86_64/lxappearance-gtk3/)   <p></p>
 [caja (gui file manager)](https://github.com/mate-desktop/caja)   <p></p>
 [lf (tui file manager)](https://github.com/gokcehan/lf)   <p></p>
-[Watcher](https://github.com/Waishnav/Watcher)   <p></p>
 [Backlight Control](https://aur.archlinux.org/packages/backlight_control)   <p></p>
 [newsboat](https://wiki.archlinux.org/title/Newsboat)   <p></p>
 [tmux](https://github.com/tmux/tmux)  <p></p>
