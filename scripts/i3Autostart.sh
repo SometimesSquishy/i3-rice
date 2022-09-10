@@ -4,7 +4,7 @@
 #remember to chmod +x scripts and put them in ~/Tools/scripts/
 
 #terminal to use
-TERMINAL="kitty"
+TERMINAL="st"
 
 # workspace to exec on
 WORKSPACE=1
