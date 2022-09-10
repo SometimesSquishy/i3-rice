@@ -30,7 +30,7 @@
 [picom](https://github.com/yshui/picom)   <p></p>
 [feh](https://github.com/derf/feh)   <p></p> 
 [kitty](https://sw.kovidgoyal.net/kitty/)   <p></p>
-[st](http://st.suckless.org/0) <p></p>
+[st](https://st.suckless.org/) <p></p>
 [zsh](https://wiki.archlinux.org/title/Zsh#Installation)   <p></p>
 
 <p>&nbsp;</p> 
