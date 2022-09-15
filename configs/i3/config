@@ -28,7 +28,7 @@ font pango:RobotoMono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec st
 
 #/g/
 bindsym $mod+shift+g exec --no-startup-id palemoon https://4channel.org/g/
