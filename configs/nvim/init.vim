@@ -19,6 +19,8 @@ Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 call plug#end()
 
+colorscheme desert
+
 set title
 set bg=light
 set go=a
