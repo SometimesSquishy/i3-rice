@@ -185,19 +185,13 @@ assign [class="^firefox$"] 2
 bindsym Print exec flameshot gui
 bindsym $mod+shift+s exec flameshot gui
 
-#To set a wallpaper create directory ~/Pictures/Wallpapers
-exec --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers
+
 
 
 #Lock screen binding.
 bindsym $mod+shift+x exec betterlockscreen -l dim blur
 
 
-exec_always picom --config ~/.config/picom/picom.conf --experimental-backends
-
-exec --no-start-up dunst
-
-exec bash -v ~/Tools/scripts/xkb.sh
 exec bash -v ~/Tools/scripts/i3Autostart.sh
 
 
@@ -250,4 +244,3 @@ bindsym F9 exec cmus-remote --prev
 #bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 #--------------------------------------------------------------------------------------------------------
 
-exec --no-startup-id betterlockscreen -u ~/Pictures/Wallpapers 
