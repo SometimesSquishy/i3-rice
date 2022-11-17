@@ -47,6 +47,11 @@ exec picom
 exec bash -v ~/Tools/scripts/xkb.sh
 
 
+#generating new random lock screen using betterlockscreen
+exec betterlockscreen -u ~/Pictures/Wallpapers 
+
+
+
 
 #                 /'.    /|    .'\
 #           ,._   |+i\  /++\  / +|    ,,
