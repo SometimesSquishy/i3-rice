@@ -37,6 +37,14 @@ exec polybar mystatus &
 # Launch Other Random shit
 exec redshift -P -O 3400K &
 exec watcher --start &
+doas rfkill unblock wifi
+
+#To set a wallpaper create directory ~/Pictures/Wallpapers
+exec feh --bg-scale --randomize ~/Pictures/Wallpapers
+exec --no-start-up dunst
+
+exec picom
+exec bash -v ~/Tools/scripts/xkb.sh
 
 
 
