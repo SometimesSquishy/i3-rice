@@ -6,8 +6,8 @@
 
 # API settings ________________________________________________________________
 
-APIKEY=`cat $HOME/.config/polybar/scripts/owm-key`
-CITY_NAME='cat $HOME/.config/polybar/scripts/CITYNAME'
+#APIKEY=""
+#CITY_NAME=""
 COUNTRY_CODE='US'
 # Desired output language
 LANG="en"
@@ -284,3 +284,5 @@ if [ $ERROR -eq 0 ]; then
 else
     echo " "
 fi
+
+#
