@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
-NPROC=$(nproc)
+
+NPROCSTAT=$(grep 'cpu ' /proc/stat; nproc)
+# Need to test to see if it is always the 12th variable in /proc/stat cpu cuz if it isnt that could mess it up on some machines
+# also would be nice to make it keep the core number in a persistent variable so i dont need to run nproc every time this runs
+# as that could cause an unneeded load on the system
+
 #
 case "$1" in
     --popup)
@@ -8,8 +13,7 @@ case "$1" in
         ;;
     *)
 
-	    # DIVIDED BY 8 BECAUSE I HAVE 8 CORE CPU, NEED TO FIX TO USE NPROC
-        echo " $(grep 'cpu ' /proc/stat | awk '{cpu_usage=($2+$4)*100/($2+$4+$5)/8}
+        echo " $(echo $NPROCSTAT | awk '{cpu_usage=($2+$4)*100/($2+$4+$5)/$12}
         END {printf "%0.2f%", cpu_usage}')
          $(sensors | grep temp1 | head -1 | awk '{print $2}')"
         ;;
