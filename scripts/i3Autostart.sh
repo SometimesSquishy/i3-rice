@@ -40,7 +40,7 @@ exec watcher --start &
 doas rfkill unblock wifi
 
 #To set a wallpaper create directory ~/Pictures/Wallpapers
-exec feh --bg-scale --randomize ~/Pictures/Wallpapers
+exec feh --bg-fill --randomize ~/Pictures/Wallpapers
 exec --no-start-up dunst
 
 exec picom
