@@ -10,6 +10,7 @@ TERMINAL="st"
 WORKSPACE=1
 
 # Setup Workspace
+#horizontal 1080p
 i3-msg "workspace $WORKSPACE; exec $TERMINAL  newsboat -r"
 sleep 0.2;
 i3-msg "workspace $WORKSPACE; floating disable"
@@ -20,7 +21,18 @@ i3-msg "resize shrink left 200 px"
 sleep 0.2;
 i3-msg "workspace $WORKSPACE; split v"
 i3-msg "workspace $WORKSPACE; exec $TERMINAL cbonsai -l --life=40 --multiplier=3 -i"
-$WORKSPACEleep 0.2;
+sleep  0.2;
+
+#vertical 1080p
+#i3-msg "workspace $WORKSPACE; exec $TERMINAL htop"
+#sleep 0.2;
+#i3-msg "workspace $WORKSPACE; floating disable"
+#i3-msg "workspace $WORKSPACE; split v"
+#i3-msg "workspace $WORKSPACE; exec $TERMINAL amdgpu_top"
+#sleep 0.2;
+#i3-msg "workspace $WORKSPACE; split h"
+#i3-msg "workspace $WORKSPACE; exec $TERMINAL cbonsai -l --life=75 --multiplier=6 -i"
+
 
 # Music Setup, Uncomment if dual monitors
 # exec bash ~/Tools/bin/muzix.sh
