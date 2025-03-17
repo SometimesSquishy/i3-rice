@@ -28,7 +28,7 @@ sleep  0.2;
 #sleep 0.2;
 #i3-msg "workspace $WORKSPACE; floating disable"
 #i3-msg "workspace $WORKSPACE; split v"
-#i3-msg "workspace $WORKSPACE; exec $TERMINAL amdgpu_top"
+#i3-msg "workspace $WORKSPACE; exec $TERMINAL amdgpu_top --dark-mode"
 #sleep 0.2;
 #i3-msg "workspace $WORKSPACE; split h"
 #i3-msg "workspace $WORKSPACE; exec $TERMINAL cbonsai -l --life=75 --multiplier=6 -i"
